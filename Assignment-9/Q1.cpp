@@ -21,9 +21,9 @@ int main()
     while(fin >> num)
     {
         if(num % 2 == 0)
-            f2 << num << " ";
+            f2 << num << " "<<"\n";
         else
-            f1 << num << " ";
+            f1 << num << " "<<"\n";
     }
 
     fin.close();
