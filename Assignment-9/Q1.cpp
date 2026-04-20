@@ -1,21 +1,16 @@
-#include <iostream>
-#include <fstream>  
+#include<iostream>
+#include<fstream>
 using namespace std;
 
-int main() {
-    ofstream fout;          
-    fout.open("NUM.TXT");   
-
-    if (!fout) {             
-        cout << "Error opening file!";
-        return 1;
+int main()
+{
+    // STEP 1: Write 1 to 200
+    ofstream fout("NUM.TXT");
+    for(int i=1; i<=200; i++)
+    {
+        fout << i << " ";
     }
-
-    for (int i = 1; i <= 200; i++) {
-        fout << i << " ";    
-    }
-
-    fout.close();           
+    fout.close();
 
     return 0;
 }
