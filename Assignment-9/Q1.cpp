@@ -8,7 +8,7 @@ int main()
     ofstream fout("NUM.TXT");
     for(int i=1; i<=200; i++)
     {
-        fout << i << " ";
+        fout << i << " "<<"\n";
     }
     fout.close();
 
@@ -57,7 +57,7 @@ int main()
 
     while(show >> num)
     {
-        cout << num << " ";
+        cout << num << " "<<"\n";
     }
 
     show.close();
