@@ -16,7 +16,6 @@ int main() {
     }
 
     fout.close();           
-    cout << "Numbers written to NUM.TXT successfully.";
 
     return 0;
 }
