@@ -31,8 +31,6 @@ int main()
     f2.close();
 
     int choice;
-    cout<<"Enter 1 to display Odd numbers\n";
-    cout<<"Enter 2 to display Even numbers\n";
     cout<<"Enter choice: ";
     cin>>choice;
 
