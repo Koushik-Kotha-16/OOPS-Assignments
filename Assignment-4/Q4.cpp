@@ -3,22 +3,18 @@ using namespace std;
 
 class Sample {
     int value;
-
 public:
     Sample() {
         value = 0;
         cout << "Default constructor called\n";
     }
-
     Sample(int v) {
         value = v;
         cout << "Parameterized constructor called\n";
     }
-
     void show() {
         cout << "Value = " << value << endl;
     }
-
     ~Sample() {
         cout << "Destructor called\n";
     }
